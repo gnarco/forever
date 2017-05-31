@@ -47,8 +47,8 @@
   "main": "./lib/forever",
   "scripts": {
     "test": "vows test/**/*-test.js --spec -i",
-    "start": "npm install sqlpad -g",
-    "run": "sqlpad"
+    "install": "npm install sqlpad -g",
+    "start": "sqlpad"
   },
   "engines": {
     "node": ">= 0.8.x"
